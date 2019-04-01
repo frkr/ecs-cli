@@ -13,6 +13,6 @@ docker run --rm \
 --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
 --env AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION \
 frkr/ecs-cli \
-aws $@ \
+ecs-cli $@ \
 || exit 1
 ```
